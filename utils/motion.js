@@ -1,3 +1,29 @@
+// @/utils/motion.js or motion.ts
+// @/components/Encryption.tsx
+
+import { slideInFromTop } from '@/utils/motion';
+
+// use slideInFromTop in your component
+
+// export const slideInFromTop = () => {
+//   // implementation of slideInFromTop
+// };
+
+// C:/Users/admin/OneDrive/Desktop/Darshan_Vala/utils/motion.js
+
+// Define the function once
+// export const slideInFromTop = () => {
+//   // implementation of slideInFromTop
+// };
+
+// Other exports
+export const anotherFunction = () => {
+  // Another function implementation
+};
+
+
+// other exports...
+
 export const textVariant = (delay) => {
   return {
     hidden: {

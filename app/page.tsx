@@ -7,7 +7,7 @@ import Grid from "@/components/Grid";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
-import Encryption from "@/components/Encryption";
+// import Encryption from "@/components/Encryption";
 import Approach from "@/components/Approach";
 
 import Contact from "@/components/Contact";
@@ -27,7 +27,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Clients />
-        <Encryption />
+        {/* <Encryption /> */}
         <Experience />
         <div className="relative z-5">
           <Contact />
