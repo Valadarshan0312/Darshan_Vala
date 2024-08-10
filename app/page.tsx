@@ -7,7 +7,7 @@ import Grid from "@/components/Grid";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
-import Approach from "@/components/Approach";
+
 
 import Contact from "@/components/Contact";
 
@@ -25,8 +25,7 @@ const Home = () => {
         <About />
         <Grid />
         <RecentProjects />
-        <Clients />
-      
+
         <Experience />
         <div className="relative z-5">
           <Contact />
